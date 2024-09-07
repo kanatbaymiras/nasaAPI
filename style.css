@@ -80,7 +80,7 @@
       line-height: 1.6em;
     }
 
-    .btns {
+    & .btns {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
