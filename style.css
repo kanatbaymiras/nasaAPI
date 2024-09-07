@@ -24,6 +24,7 @@
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
+    margin-bottom: 10px;
   }
 
   & .btns {
@@ -60,16 +61,14 @@
 
 @media screen and (max-width: 500px) {
   .wrapper {
-    width: 85vw;
-    margin: 7.5vw auto;
+    width: 90vw;
+    margin: 5vw auto;
     border: none;
     padding: 0;
-    gap: 7.5vw;
+    gap: 5vw;
 
     & .expl-text {
-      padding: 0 0.3em;
-      color: black;
-      border-radius: 5px;
+      padding: 0 0.5em;
       line-height: 1.6em;
     }
 
@@ -81,10 +80,12 @@
       & .date-input {
         display: flex;
         justify-content: center;
+        padding: 1em;
         flex-grow: 1;
       }
+
       button {
-        flex-grow: 1;
+        flex-basis: 33%;
       }
     }
   }
