@@ -81,11 +81,11 @@
         display: flex;
         justify-content: center;
         padding: 1em;
-        flex-grow: 1;
+        width: 33%;
       }
 
       button {
-        flex-basis: 33%;
+        flex-grow: 1;
       }
     }
   }
