@@ -75,13 +75,6 @@
     .btns {
       width: 100%;
       height: 50px;
-      display: flex;
-
-      & .date-input {
-        display: flex;
-        justify-content: center;
-        width: 33%;
-      }
 
       button {
         flex-grow: 1;
